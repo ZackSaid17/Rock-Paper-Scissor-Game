@@ -1,0 +1,51 @@
+
+body{
+    font-family: monospace,sans-serif;
+}
+
+h1{
+    text-align: center;
+ 
+}
+
+#Mybuttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#clicked{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#result{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+#score{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+.buttons{
+
+    width: 150px;
+}
+
+.buttons:hover{
+    opacity: 0.5;
+}
+
+.buttons:active{
+    opacity: 0.8;
+}
